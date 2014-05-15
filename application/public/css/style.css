@@ -1,0 +1,221 @@
+@charset "utf-8";
+header{
+	height:4em;
+	width:100%;
+	background-color:#09C;
+	padding-top:1%;	
+        margin-bottom: 0;
+        display:inline-block;
+}
+#imag_log{
+    height:4em;
+    width:5em;
+       
+}
+.accedir input{
+    -moz-box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 9px 8px 7px;
+}
+.botones div a{
+	padding:10px;
+	margin-top:10px;
+	text-decoration:none;
+}	
+.botones div a:hover{
+	background-color:#66C;
+	color:#FFF;
+}
+.logo{
+        display:inline-block;
+	/*ANCHO*/
+	width:20%;
+	/*ALTO*/
+	height:95%;	
+	vertical-align: top;
+}
+.ocult{
+    display: none;
+}
+.botones{
+    height:100%;
+    width:70%;
+    display:inline-block;
+}
+section{
+        background-image: url('../img/bg.jpg');
+        background-repeat: no-repeat;
+        background-position: right top;
+	height:70%;
+        width:100%;
+        color: white;
+}
+section h1{
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+}
+.boton{
+        background-color:#FF8040;
+	opacity:1;
+	border-radius:5px;
+	display:inline-block;
+	width:32%;
+	height:6em;
+	text-align:center;
+	color:#000;
+	margin-top:1em;
+        margin-left: 10px;
+}
+.boton:hover{
+    color: white;
+    background-color: #E8761F;
+    opacity: 3;
+}
+.producte{
+    border: 1px solid black;
+}
+footer{
+	padding-top:1%;
+	height:2em;
+	width:100%;
+	background-color:#09C;
+	text-align:center;
+}
+
+/*señal aceptacion de directiva cookies*/
+#cookieMessageWrapper
+{
+	width: 100%;
+	border-top: 1px solid #aaaaaa;
+	background: #f6f6f6;
+	position: fixed;
+	left: 0;
+	bottom: 0px;
+	text-align: center;
+	padding: px 0;
+	
+	
+}
+#cookieMessage
+{
+	width: 640px; /*this needs to be set to the width of the centre container*/
+	padding: 3px 0 3px 0;
+	margin: 0 auto;
+	position: relative;
+}
+#cookieMessage:after
+{
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+#cookieMessage p
+{
+	margin: 5px 0 0;
+}
+#cookieClose
+{
+	float: right;
+	display: block;
+	padding: 0px 5px;
+	text-decoration: none;
+	background: #f80;
+	border: solid 1px #000;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 100%;
+	margin-top: 6px;
+	font-weight: bold;
+}
+.dadespers{
+	height: auto;
+	width: 50%;
+	border: 5px solid white;
+	border-radius: 10px;
+}
+/*DIV PER ALERTAR QUE AQUESTA ES UNA ZONA PRIVADA*/
+#zonapriv {
+  background-color: #FF0000;
+  border-radius: 10px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+/*DIVS DE CADA PRODUCTO*/
+.producto{
+	margin-left: 20px;
+	height: 215px;
+	width: 80%;
+	border: 3px solid white;
+	border-radius: 5px;
+	margin-top: 5px;
+        display: inline-block;
+}
+.producto2{
+    width: 49%;
+    height: 98%;
+    display: inline-block;
+}
+.producto1{
+   width: 49%; 
+   height: 98%;
+   display: inline-block;
+   vertical-align: top;
+}
+.mapa{
+    height: 100%;
+}
+.producto h1{
+	text-align: center;
+}
+.producto form{
+	//width: 500px;
+}
+/*RSS*/
+#rss{
+  display: inline-block;
+  font-size:10px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  width:100%;
+  height:255px;
+  padding-left:15px;
+  padding-right:10px;
+  
+}
+#rss hr{
+    width: 50%;
+    background-color: white;
+}
+titol{
+  font-weight:bold;
+  color:#FF0000;
+}
+descripcio {
+    color: #FFFFFF;
+}
+data{
+  color:#999999;
+}
+enllac a{
+  color:#003399;
+  margin-left:180px;
+}
+next a{
+ color:#006699;
+ margin-left:180px;
+ text-decoration:none;
+}
+load{
+  color:#003366;
+}
+/*Carrito*/
+#carrito{
+    color: white;
+    width: 80%;
+}

@@ -1,0 +1,8 @@
+{
+    
+    "driver":"mysql",
+    "dbname":"agencia_viatjes",
+    "dbhost":"localhost",
+    "dbuser":"root",
+    "dbpass":""
+}
